@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvStart"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="开始播放" />
+
+    <EditText
+        android:id="@+id/edText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="1" />
+
+    <TextView
+        android:id="@+id/tvRecord"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tvStart"
+        android:layout_alignLeft="@+id/tvStart"
+        android:layout_marginTop="30dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="开始录音" />
+
+    <TextView
+        android:id="@+id/edShowText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/colorPrimaryDark" />
+</LinearLayout>
